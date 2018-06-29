@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!dasdasd
+        </div>
+
+        <form class='form-validate'>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control obg" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                <div class="msg-invalid invalid-email invalid-feedback">Sorry, that username's taken. Try another?</div>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control obg" id="password" placeholder="Password">
+                <div class="msg-invalid invalid-password invalid-feedback">Sorry, that username's taken. Try another?</div>
+            </div>
+            <button class="btn btn-primary validator">Submit</button>
+        </form>
+    </div>
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>
